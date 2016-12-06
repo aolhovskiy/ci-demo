@@ -8,4 +8,8 @@ describe('Demo', () => {
   it("Always fails", function() {
     expect(true).to.equal(false);
   });
+
+  it("Will be removed", () => {
+
+  });
 });
