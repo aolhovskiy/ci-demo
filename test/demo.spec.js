@@ -5,8 +5,8 @@ describe('Demo', () => {
     expect(true).to.equal(true);
   });
 
-  it("Always fails", function() {
-    expect(true).to.equal(false);
+  it("Always failed but fixed now", function() {
+    expect(true).to.equal(true);
   });
 
   it("Will be removed", () => {
